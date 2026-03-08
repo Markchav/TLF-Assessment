@@ -24,7 +24,7 @@ export default function ImageGallery({ product }: Props) {
   return (
     <div className="w-full lg:w-[60%]">
       <div className="relative bg-transparent lg:bg-[#f3f3f3]">
-        {/* Wishlist Button */}
+        {/* Heart Button */}
         <button className="absolute top-3 right-3 bg-white w-10 h-10 flex items-center justify-center shadow-sm cursor-pointer z-10">
           <svg
             viewBox="0 0 24 24"
@@ -88,7 +88,7 @@ export default function ImageGallery({ product }: Props) {
           </div>
         </div>
 
-        {/* DESKTOP: Grid */}
+        {/* DESKTOP IMAGE SECTION */}
         <div className="hidden lg:grid grid-cols-2 gap-1">
           {[1, 2, 3, 4].map((i) => (
             <div key={i} className="bg-white">
